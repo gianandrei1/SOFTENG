@@ -187,7 +187,7 @@ const Reports = () => {
           </CardHeader>
           <CardContent>
             <p className="text-3xl font-bold">
-              $
+              ₱
               {products
                 .reduce((sum, p) => sum + p.quantity * p.unitCost, 0)
                 .toLocaleString(undefined, {
