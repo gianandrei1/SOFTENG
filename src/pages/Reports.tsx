@@ -292,7 +292,7 @@ const Reports = () => {
               <div>
                 <p className="text-sm text-muted-foreground">Total Value</p>
                 <p className="text-2xl font-bold">
-                  $
+                  ₱
                   {products
                     .reduce((sum, p) => sum + p.quantity * p.unitCost, 0)
                     .toFixed(2)}
